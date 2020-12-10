@@ -1,0 +1,29 @@
+{
+  "name": "data-modeling",
+  "version": "1.0.0",
+  "description": "Follow these steps to set up and work on your project:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcsaav/node-db4-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcsaav/node-db4-project/issues"
+  },
+  "homepage": "https://github.com/marcsaav/node-db4-project#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "sqlite3": "^5.0.0"
+  }
+}
